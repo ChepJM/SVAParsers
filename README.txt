@@ -26,7 +26,7 @@ result.csv - файл, сожержащий только те статьи, ко
 тип_ключевых_слов - слова аналитиков или модели (по умолчанию аналитики)
 путь_к_файлу_с_ключевыми_словами - путь к файлу с ключевыми словами (по умолчанию LDA.txt)
 
-Пример 1 - 'python check_csv.py -p "C:\Users\18888333\Documents\log_links.csv"'
-Пример 2 - 'python check_csv.py -p "C:\Users\18888333\Documents\log_links.csv" -k m -f "LDA.txt"'
+Пример 1 - 'python check_csv.py -p "C:\Users\a\Documents\log_links.csv"'
+Пример 2 - 'python check_csv.py -p "C:\Users\a\Documents\log_links.csv" -k m -f "LDA.txt"'
 
 В результате работы скрипта будет создан файл result.csv, сожержащий только те статьи, которые прошли фильтрацию.
